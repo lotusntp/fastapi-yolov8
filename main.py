@@ -10,7 +10,7 @@ from PIL import Image
 from mangum import Mangum
 # Initialize the Flask application
 app = FastAPI()
-handler = Mangum(app)
+
 
 model = YOLO('model/best.pt')
 
