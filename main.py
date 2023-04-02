@@ -2,7 +2,6 @@ import cv2
 import numpy as np
 from fastapi import FastAPI, File, UploadFile, Request
 from fastapi.responses import JSONResponse
-import onnxruntime as ort
 from ultralytics import YOLO
 import uvicorn
 import io
